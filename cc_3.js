@@ -30,3 +30,15 @@ let feedback = [
 feedback.push({customerName: "Sam", feedbackText: "my chair caught fire", rating: 2});
 console.log(feedback); //log the feedback array
 
+//Task 5 Inventory management system scenario
+let inventory = {
+    itemName: "Table",
+    stockCount: 42,
+    price: 199
+}; //create object inventory with properties
+function calculateTotalValue(inventory) {
+    let totalvalue = (inventory.stockCount * inventory.price);
+    return totalvalue
+}; //create method to return total value
+console.log(`Inventory: Item Name: ${inventory.itemName}, Stock Count: ${inventory.stockCount}, Price: ${inventory.price}
+Total value: ${calculateTotalValue(inventory)}`); //log inventory info and total value
