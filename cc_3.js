@@ -9,3 +9,14 @@ let orders = [2, 3, 8, 4, 12, 9]; //define array
 orders[2] += 5; //add 5 to the 3rd order
 console.log(`Number of orders: ${orders.reduce((total, amount) => total + amount, 0)}
 Orders: ${orders}`); //display the number of instances, and the array of orders
+
+//Task 3 Employee performance tracking scenario
+let employee = {
+    name: "John",
+    role: "Administrator",
+    performanceScore: 82,
+    isActive: true
+}; //declare object with properties
+employee.performanceScore = 89; //update property
+employee.promotionEligible = true; //add new property
+console.log(employee); //log the updated object
