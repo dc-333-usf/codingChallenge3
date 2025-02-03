@@ -20,3 +20,13 @@ let employee = {
 employee.performanceScore = 89; //update property
 employee.promotionEligible = true; //add new property
 console.log(employee); //log the updated object
+
+//Task 4 Customer feedback records scenario
+let feedback = [
+    {customerName: "Michael", feedbackText: "my table caught fire", rating: 1},
+    {customerName: "Vanessa", feedbackText: "my sofa caught fire", rating: 0},
+    {customerName: "Jaden", feedbackText: "my fireplace caught fire", rating: 5}
+]; // create array with objects
+feedback.push({customerName: "Sam", feedbackText: "my chair caught fire", rating: 2});
+console.log(feedback); //log the feedback array
+
